@@ -1,0 +1,3 @@
+include ':CircularCountdown'
+include ':app'
+rootProject.name = "CircularCountdownProgress"
