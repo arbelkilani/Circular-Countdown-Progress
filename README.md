@@ -86,7 +86,7 @@ and to your app build.gradle:
 
 ```xml
 dependencies {
-  implementation 'com.github.arbelkilani:Circular-Countdown-Progress:1.0.0'
+  implementation 'com.github.arbelkilani:Circular-Countdown-Progress:1.0.1'
 }
 ```
 
