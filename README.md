@@ -1,13 +1,15 @@
-**Circular Countdown progress** is a UI widget that could be used to inform user that he has to await for a specific amount of time, defined while creating the widget.
+## Circular Countdown
+
+- A UI widget that could be used to inform user that he has to await for a specific amount of time, defined while creating the widget.
 - Some attributes has been set in order to create a more personal version of the widget. 
 
-## Screenshots : 
+### Screenshots : 
 
 Example 1                  |  Example 2                 |  Example 3
 :-------------------------:|:-------------------------: |:-------------------------:
 ![](https://raw.githubusercontent.com/arbelkilani/Circular-Countdown-Progress/master/wiki/example1.png)  |  ![](https://raw.githubusercontent.com/arbelkilani/Circular-Countdown-Progress/master/wiki/example2.png) |![](https://raw.githubusercontent.com/arbelkilani/Circular-Countdown-Progress/master/wiki/example3.png) |
 
-## Attributes
+### Attributes
 
 ```xml
 <edu.arbelkilani.circularcountdown.CircularCountdown
@@ -31,7 +33,7 @@ Example 1                  |  Example 2                 |  Example 3
 * **disk_alpha** : set an alpha value for the inner circle, the disk. Value should bet between 0f and 1f, default value _1f_.
 * **start_angle** : an enumeration that define wether to start the animation. It could be **start**, **top**, **end** or **bottom**, default value _top_.
 
-## Methods
+### Methods
 
 ```java
 val circularCountdown = findViewById<CircularCountdown>(R.id.countdown)
@@ -44,7 +46,7 @@ circularCountdown.startDelay(1000)
 * **start()** : enable to start animation
 * **startDelay(delay: Long)** : enable to start animation with a delay.
 
-## Callbacks
+### Callbacks
 
 ```java
 circularCountdown.onAnimationStart = {
