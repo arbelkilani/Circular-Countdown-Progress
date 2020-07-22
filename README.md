@@ -62,6 +62,25 @@ circularCountdown.onAnimationEnd = {
 * **onAnimationEnd** : called at the animation end. 
 
 
+### Setup
+
+Add to your module's build.gradle:
+
+```xml
+allprojects {
+        repositories {
+            ...
+            maven { url 'https://jitpack.io' }
+        }
+    }
+```
+and to your app build.gradle:
+
+```xml
+dependencies {
+  implementation 'com.github.arbelkilani:Circular-Countdown-Progress:1.0.0'
+}
+```
 
 
 
