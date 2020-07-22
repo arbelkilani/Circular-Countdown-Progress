@@ -16,6 +16,5 @@
             <enum name="acw" value="-1" />
         </attr>
         <attr name="disk_alpha" format="float" />
-        <attr name="sweep_test" format="float"/>
     </declare-styleable>
 </resources>

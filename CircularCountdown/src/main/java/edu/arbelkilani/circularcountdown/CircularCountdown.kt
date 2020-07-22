@@ -118,11 +118,6 @@ class CircularCountdown(context: Context?, attrs: AttributeSet?) : View(context,
                 )
                     .toFloat()
 
-            sweepAngle = typedArray.getFloat(
-                R.styleable.CircularCountdown_sweep_test,
-                0f
-            )
-
             direction = typedArray.getInt(
                 R.styleable.CircularCountdown_direction,
                 DEFAULT_DIRECTION
