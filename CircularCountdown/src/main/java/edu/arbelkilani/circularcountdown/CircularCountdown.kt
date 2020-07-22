@@ -11,6 +11,7 @@ import android.graphics.RectF
 import android.util.AttributeSet
 import android.view.View
 import android.view.animation.LinearInterpolator
+import androidx.core.content.res.ResourcesCompat
 import kotlin.math.min
 import kotlin.math.roundToInt
 
@@ -21,7 +22,7 @@ class CircularCountdown(context: Context?, attrs: AttributeSet?) : View(context,
         private const val DEFAULT_BORDER_COLOR = Color.BLACK
         private const val DEFAULT_BORDER_THICKNESS = 10f
         private const val DEFAULT_DISK_COLOR = Color.GRAY
-        private const val DEFAULT_START_ANGLE = 180f
+        private const val DEFAULT_START_ANGLE = -90f
         private const val DEFAULT_COUNTDOWN_VALUE = 2000L
         private const val EMPTY_ANGLE = 0f
         private const val FULL_ANGLE = 360f
@@ -183,6 +184,16 @@ class CircularCountdown(context: Context?, attrs: AttributeSet?) : View(context,
     fun startDelay(delay: Long) {
         valueAnimator.startDelay = delay
         valueAnimator.start()
+    }
+
+    fun setBorderColor(borderColor: Int) {
+        this.borderColor = ResourcesCompat.getColor(context.resources, borderColor, null)
+        invalidate()
+    }
+
+    fun setDiskColor(diskColor: Int) {
+        this.diskColor = ResourcesCompat.getColor(context.resources, diskColor, null)
+        invalidate()
     }
 
     val Int.px: Int
