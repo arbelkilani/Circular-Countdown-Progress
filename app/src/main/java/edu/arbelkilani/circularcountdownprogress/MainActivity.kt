@@ -11,9 +11,10 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val circularCountdown = findViewById<CircularCountdown>(R.id.first)
+        circularCountdown.setBorderColor(R.color.colorPrimaryDark)
+        circularCountdown.setDiskColor(R.color.colorAccent)
         circularCountdown.setDuration(2000)
-        //circularCountdown.start()
-        circularCountdown.startDelay(1000)
+        circularCountdown.start()
 
         circularCountdown.onAnimationStart = {
             Toast.makeText(applicationContext, "onAnimationStart", Toast.LENGTH_SHORT).show()

@@ -13,13 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_centerHorizontal="true"
-        android:layout_margin="40dp"
-        app:border_color="@android:color/black"
-        app:border_thickness="6dp"
-        app:direction="acw"
-        app:disk_alpha=".5"
-        app:disk_color="@android:color/holo_orange_light"
-        app:start_angle="bottom"/>
+        android:layout_margin="40dp" />
 
     <TextView
         android:layout_width="wrap_content"
