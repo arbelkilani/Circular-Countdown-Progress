@@ -46,6 +46,14 @@ circularCountdown.startDelay(1000)
 * **start()** : enable to start animation
 * **startDelay(delay: Long)** : enable to start animation with a delay.
 
+ - you can also update some parameters such as borderColor and diskColor through kotlin. 
+ 
+ ```java
+circularCountdown.setBorderColor(R.color.colorPrimaryDark)
+circularCountdown.setDiskColor(R.color.colorAccent)
+```
+
+ 
 ### Callbacks
 
 ```java
