@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircularCountdown">
+        <attr name="border_color" format="color" />
+        <attr name="border_thickness" format="dimension" />
+
+        <attr name="disk_color" format="color" />
+        <attr name="start_angle" format="enum">
+            <enum name="top" value="-90" />
+            <enum name="end" value="0" />
+            <enum name="bottom" value="90" />
+            <enum name="start" value="180" />
+        </attr>
+        <attr name="direction" format="enum">
+            <enum name="cw" value="1" />
+            <enum name="acw" value="-1" />
+        </attr>
+        <attr name="disk_alpha" format="float" />
+        <attr name="sweep_test" format="float"/>
+    </declare-styleable>
+</resources>

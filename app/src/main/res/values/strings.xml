@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">CircularCountdownProgress</string>
+    <string name="description">
+        app:border_color="@android:color/black"\napp:border_thickness="6dp"\napp:direction="acw"\napp:disk_alpha=".5"\napp:disk_color="@android:color/holo_orange_light"\napp:start_angle="bottom"
+    </string>
+</resources>
