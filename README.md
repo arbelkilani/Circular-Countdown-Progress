@@ -7,7 +7,7 @@
 
 Example 1                  |  Example 2                 |  Example 3
 :-------------------------:|:-------------------------: |:-------------------------:
-![](https://raw.githubusercontent.com/arbelkilani/Circular-Countdown-Progress/master/wiki/example1.png)  |  ![](https://raw.githubusercontent.com/arbelkilani/Circular-Countdown-Progress/master/wiki/example2.png) |![](https://raw.githubusercontent.com/arbelkilani/Circular-Countdown-Progress/master/wiki/example3.png) |
+![](https://raw.githubusercontent.com/arbelkilani/Circular-Countdown-Progress/master/screenshots/example1.png)  |  ![](https://raw.githubusercontent.com/arbelkilani/Circular-Countdown-Progress/master/screenshots/example2.png) |![](https://raw.githubusercontent.com/arbelkilani/Circular-Countdown-Progress/master/screenshots/example3.png) |
 
 ### Attributes
 
